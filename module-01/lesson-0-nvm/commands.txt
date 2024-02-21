@@ -1,0 +1,8 @@
+nvm install 20 -> instala o node js na versão 20
+nvm install --lts -> instala a versão long term support
+nvm list -> lista as versões instaladas do node js
+nvm use 18 -> alterar a versão da seção atual do node para a verão 18
+nvm alias default 18 -> altera a versão global do node para versão 18
+
+.nvmrc -> arquivo que salva a versão que o projeto deve usar
+ -> rodar nvm use, para usar a versão descrita neste arquivo
